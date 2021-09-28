@@ -1,0 +1,100 @@
+
+#cabecera{
+    background-color: rgb(6, 247, 154, 0.5);
+
+}
+#logo{
+    border: 2px solid black;
+    margin: auto;
+}
+/*lo que este dentro del cuerpo-h1 se centra*/
+header h1{
+    text-align: center;
+}
+/*lo que este dentro del cuerpo-p se centra*/
+header p{
+  
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica;
+    background: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/26_03_2020_IMF_COVID-19_2.jpg/image1170x530cropped.jpg) ;/*<a href="https://www.freepik.es/vectores/fondo">Vector de Fondo creado por starline - www.freepik.es</a>*/
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#contenedor{
+    width: 900px;
+    margin: 30px auto;
+    background-color:rgb(131, 201, 245,0.5) ;
+   
+}
+#visuales{
+    background: black;
+    margin: 20px 100px;
+   display: inline-flex;
+}
+.conten{
+    border: 5px solid white;
+    margin: 25px 10px;
+    padding: auto;
+   
+}
+
+/*Estilo a la clase tabla*/
+.tabla{
+    margin: 25px auto;
+    border: 1px solid black;
+    background-color:white;
+    text-align:center;
+    text-decoration: none;
+    
+}
+/*Cuando se pasa encima de la tabla cambia color- de la clase tabla*/
+.tabla:hover{
+ background:darkgrey;
+}
+/*Se quito el sub-rayado del hipervinculo*/
+a{
+    text-decoration: none;
+    
+}
+/*Cuando se pasa encima del link se sub-raya*/
+a:hover{
+    
+    text-decoration-line: underline;
+}
+#footer{
+  
+    background:rgb(6, 247, 154, 0.5);
+    
+    height: 120px;
+    padding-top: 15px;
+}
+
+#lista-ordenada{
+    background: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica;
+    font-style: oblique;
+    color: black;
+    
+}
+ol{
+    text-align: center;
+    display: flex;
+    
+}
+
+
+li a{
+    color: black;
+    margin: 55px;
+}
+
+
